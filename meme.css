@@ -1,0 +1,63 @@
+body {
+    background-color: slategray;
+}
+label {
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+}
+form input {
+    display: block;
+    margin: 15px;
+}
+.form {
+    display: block;
+    TEXT-ALIGN: center;
+}   
+.img {
+    border: solid gold 15px;
+    border-style: ridge;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg");
+    color: white;
+    font-size: 40px;
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+.top{
+    border-radius: 15% 15%;
+    display: inline-block;
+}
+.bottom {
+    border-radius: 15%;
+    display: inline-block;
+}
+input[type="submit"]{
+    background-color: #2EEB28;
+    border-radius: 15%;
+    display: inline-block;
+}
+#new div {
+    display: inline-block;
+}
+div img {
+    z-index: -1;
+    height: 300px;
+}
+p.top {
+    font-size: 50px;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}
+p.bot {
+    font-size: 50px;
+    bottom: 0px;
+    margin: 0px; 
+}
+button {
+    background-color: transparent;
+    border: 2px solid black;
+    /* border-radius: 40% 40%; */
+    color: red;
+}

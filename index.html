@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet'href='meme.css'/>
+    <title>Make your own meme!</title>
+</head>
+<body>
+    <div class="form">
+    <h1>Generate a meme by pasting the picture's link in the frame:</h1>
+    <form id="memeform">
+        <input type="text" alt="Link for your picture" class="img" name="image">
+        <label>Next, add top and bottom captions</label>
+        <input type='text' placeholder="Words at the top" class='top' name="toptext">
+        <input type='text' placeholder="Words at the bottom" class='bottom' name="bottext">
+        <input type="submit" value='Create my meme!'>
+    </form>
+    <hr>
+    </div>
+    <div id='new'></div>
+<script src="meme.js"></script>
+</body>
+</html>
